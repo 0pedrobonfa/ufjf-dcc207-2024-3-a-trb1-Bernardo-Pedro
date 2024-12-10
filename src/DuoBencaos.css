@@ -1,5 +1,35 @@
 .duoBencaos {
+    color: aquamarine;
     padding: 2em;
-    box-shadow: 0 0 0 0.2vh black;
+    box-shadow: 0 0 0 0.2vh lightblue;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 
+    "nomeD1 . nomeD2"
+    "imagemD1 . imagemD2"
+    "nomeDuoBencao . ."
+    "imagemDuoBencao . descricao";
+
+    .nomeD1{
+        grid-area:nomeD1;
+    }
+    .imagemD1{
+        grid-area: imagemD1;
+    }
+    .nomeD2{
+        grid-area: nomeD2;
+    }
+    .imagemD2{
+        grid-area: imagemD2;
+    }
+    .nomeDuoBencao{
+        grid-area: nomeDuoBencao;
+    }
+    .imagemDuoBencao{
+        grid-area: imagemDuoBencao;
+    }
+    .descricao{
+        grid-area: descricao;
+    }
 }
 
