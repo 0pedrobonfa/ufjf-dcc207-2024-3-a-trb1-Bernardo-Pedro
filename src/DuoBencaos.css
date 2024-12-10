@@ -15,12 +15,24 @@
     }
     .imagemD1{
         grid-area: imagemD1;
+
     }
+    .imagemD1 img{
+        width: 30em;
+        height: 30em;
+    }
+
     .nomeD2{
         grid-area: nomeD2;
     }
     .imagemD2{
         grid-area: imagemD2;
+
+    }
+
+    .imagemD2 img{
+        width: 30em;
+        height: 30em;
     }
     .nomeDuoBencao{
         grid-area: nomeDuoBencao;
@@ -31,5 +43,6 @@
     .descricao{
         grid-area: descricao;
     }
+
 }
 

@@ -1,5 +1,5 @@
 import "./DuoBencaos.css";
-import Ares from "./assets/Deuses/Ares.png";
+import insereImagem from "./imagens";
 
 interface DuoBencaosProps {
     imagemDuoBencao: string;
@@ -11,16 +11,9 @@ interface DuoBencaosProps {
     nomeD2: string;
 }
 
+
 export default function DuoBencaos ({imagemDuoBencao, imagemD1, imagemD2, nomeDuoBencao, descricao, nomeD1, nomeD2}:DuoBencaosProps)
 {
-    function insereImagem(imagemD1:String){
-    
-        if(imagemD1 == "Ares"){
-    
-            return <img src={Ares}/>
-        }
-    
-    }
     return (
         <div className="duoBencaos">
  
@@ -28,7 +21,7 @@ export default function DuoBencaos ({imagemDuoBencao, imagemD1, imagemD2, nomeDu
             <div className="imagemD1">{insereImagem(imagemD1)}
             </div>
             <div className="nomeD2">{nomeD2}</div>
-            <div className="imagemD2">{imagemD2}</div>
+            <div className="imagemD2">{insereImagem(imagemD2)}</div>
 
             <div className="nomeDuoBencao">{nomeDuoBencao}</div>
             <div className="imagemDuoBencao">{imagemDuoBencao}</div>
