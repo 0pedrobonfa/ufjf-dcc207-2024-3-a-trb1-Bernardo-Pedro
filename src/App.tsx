@@ -6,16 +6,16 @@ function App() {
     <div>
 
       <DuoBencaos 
-        imagemDuoBencao='IMAGEM'
         imagemD1='IMAGEMD1'
+        nomeD1='NOMED1'
         imagemD2='IMAGEMD2'
+        nomeD2='NOMED2'
+        imagemDuoBencao='IMAGEM'
         nomeDuoBencao='NOMEBENCAO'
         descricao='Descricao'
-        nomeD1='NOMED1'
-        nomeD2='NOMED2'
       >
       </DuoBencaos>
-      
+
     </div>
   )
 }
