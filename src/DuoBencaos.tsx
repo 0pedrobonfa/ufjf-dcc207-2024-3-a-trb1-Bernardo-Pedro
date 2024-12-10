@@ -1,4 +1,5 @@
 import "./DuoBencaos.css";
+import Ares from "./assets/Deuses/Ares.png";
 
 interface DuoBencaosProps {
     imagemDuoBencao: string;
@@ -16,7 +17,10 @@ export default function DuoBencaos ({imagemDuoBencao, imagemD1, imagemD2, nomeDu
         <div className="duoBencaos">
  
             <div className="nomeD1">{nomeD1}</div>
-            <div className="imagemD1">{imagemD1}</div>
+            <div className="imagemD1">
+            <img src={Ares} alt="Ares" />
+
+            </div>
             <div className="nomeD2">{nomeD2}</div>
             <div className="imagemD2">{imagemD2}</div>
 
