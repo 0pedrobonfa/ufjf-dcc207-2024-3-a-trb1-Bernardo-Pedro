@@ -18,8 +18,8 @@
 
     }
     .imagemD1 img{
-        width: 30em;
-        height: 30em;
+        width: 20em;
+        height: 20em;
     }
 
     .nomeD2{
@@ -31,8 +31,8 @@
     }
 
     .imagemD2 img{
-        width: 30em;
-        height: 30em;
+        width: 20em;
+        height: 20em;
     }
     .nomeDuoBencao{
         grid-area: nomeDuoBencao;

@@ -5,10 +5,10 @@ function App() {
     <div>
 
       <DuoBencaos 
-        imagemD1 = "Afrodite"
-        nomeD1="Afrodite"
-        imagemD2="Ares"
-        nomeD2="Ares"
+        imagemD1 = "Zeus"
+        nomeD1="Zeus"
+        imagemD2="Poseidon"
+        nomeD2="Poseidon"
         imagemDuoBencao='IMAGEM'
         nomeDuoBencao='NOMEBENCAO'
         descricao='Descricao'
