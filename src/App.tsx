@@ -5,7 +5,7 @@ function App() {
     <div>
 
       <DuoBencaos 
-        imagemD1 = ""
+        imagemD1 = "Ares"
         nomeD1='NOMED1'
         imagemD2='IMAGEMD2'
         nomeD2='NOMED2'
