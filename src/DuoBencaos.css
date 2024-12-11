@@ -1,48 +1,66 @@
 .duoBencaos {
     color: aquamarine;
-    padding: 2em;
+    padding: 0.5em;
     box-shadow: 0 0 0 0.2vh lightblue;
-    display: grid;
     place-items: center;
-    grid-template-areas: 
-    "nomeD1 . nomeD2"
-    "imagemD1 . imagemD2"
-    "nomeDuoBencao . ."
-    "imagemDuoBencao . descricao";
 
-    .nomeD1{
-        grid-area:nomeD1;
-    }
-    .imagemD1{
-        grid-area: imagemD1;
+    .deuses {
+        display: grid;
+        place-items: center;
+        grid-template-areas:
+        "nomeD1 nomeD2"
+        "imagemD1 imagemD2";
 
+        .nomeD1{
+            grid-area:  nomeD1;
+        }   
+        .imagemD1{
+            grid-area: imagemD1;
+            margin: 1em;
+        }
+        .imagemD1 img{
+            max-width: 100%;
+            width: auto;
+            height: auto;
+        }
+
+        .nomeD2{
+            grid-area: nomeD2;
+        }
+        .imagemD2{
+            grid-area: imagemD2;
+            margin: 1em;
+        }
+        .imagemD2 img{
+            max-width: 100%;
+            width: auto;
+            height: auto;
+        }
     }
-    .imagemD1 img{
-        width: 20em;
-        height: 20em;
+    
+    .info {
+        margin-left: 1em;
+        margin-right: 1em;
+        display: grid;
+        place-items: center;
+        grid-template-areas:
+        "nomeDuoBencao ."
+        "imagemDuoBencao descricao";
+        .nomeDuoBencao{
+            grid-area: nomeDuoBencao;
+            margin-right: 1em;
+        }
+        .imagemDuoBencao{
+            grid-area: imagemDuoBencao;
+            margin-right: 1em;
+        }
+        .descricao{
+            grid-area: descricao;
+        }
     }
 
-    .nomeD2{
-        grid-area: nomeD2;
-    }
-    .imagemD2{
-        grid-area: imagemD2;
 
-    }
 
-    .imagemD2 img{
-        width: 20em;
-        height: 20em;
-    }
-    .nomeDuoBencao{
-        grid-area: nomeDuoBencao;
-    }
-    .imagemDuoBencao{
-        grid-area: imagemDuoBencao;
-    }
-    .descricao{
-        grid-area: descricao;
-    }
 
 }
 

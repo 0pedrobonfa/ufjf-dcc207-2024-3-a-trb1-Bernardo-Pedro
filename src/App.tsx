@@ -1,22 +1,24 @@
-import './App.css'
-import DuoBencaos from './DuoBencaos';
+import "./App.css";
+import DuoBencaos from "./DuoBencaos";
 function App() {
   return (
     <div>
-
-      <DuoBencaos 
-        imagemD1 = "Zeus"
-        nomeD1="Zeus"
-        imagemD2="Poseidon"
-        nomeD2="Poseidon"
-        imagemDuoBencao='IMAGEM'
-        nomeDuoBencao='NOMEBENCAO'
-        descricao='Descricao'
-      >
-      </DuoBencaos>
-
+      <DuoBencaos
+        imagemD1="Demeter"
+        nomeD1="Demeter"
+        imagemD2="Dionisio"
+        nomeD2="Dionisio"
+        imagemDuoBencao="IMAGEM"
+        nomeDuoBencao="NOMEBENCAO"
+        descricao="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos 
+        e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, 
+        como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. 
+        Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, 
+        e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+      ></DuoBencaos>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
