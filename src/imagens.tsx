@@ -9,6 +9,12 @@ import Zeus from "./assets/Deuses/Zeus.png";
 
 import AfroditeAres from "./assets/DuoBencao/dbAfroditeAres.png";
 import AfroditeArtemis from "./assets/DuoBencao/dbAfroditeArtemis.png";
+import AfroditeAtena from "./assets/DuoBencao/dbAfroditeAtena.png";
+import AfroditeDemeter from "./assets/DuoBencao/dbAfroditeDemeter.png";
+import AfroditeDionisio from "./assets/DuoBencao/dbAfroditeDionisio.png";
+import AfroditePoseidon from "./assets/DuoBencao/dbAfroditePoseidon.png";
+import AfroditeZeus from "./assets/DuoBencao/dbAfroditeZeus.png";
+
 
 export default function insereImagem(imagemDeus:String){
 
@@ -46,8 +52,23 @@ export function insereImagemDuoBencao(imagemDuoBencao:String){
     if(imagemDuoBencao === "dbAfroditeAres"){
         return (<img src={AfroditeAres}/>);
     }
-    if(imagemDuoBencao === "dbAfroditeArtemis"){
+    else if(imagemDuoBencao === "dbAfroditeArtemis"){
         return (<img src={AfroditeArtemis}/>);
+    }
+    else if(imagemDuoBencao === "dbAfroditeAtena"){
+        return (<img src={AfroditeAtena}/>);
+    }
+    else if(imagemDuoBencao === "dbAfroditeDemeter"){
+        return (<img src={AfroditeDemeter}/>);
+    }
+    else if(imagemDuoBencao === "dbAfroditeDionisio"){
+        return (<img src={AfroditeDionisio}/>);
+    }
+    else if(imagemDuoBencao === "dbAfroditePoseidon"){
+        return (<img src={AfroditePoseidon}/>);
+    }
+    else if(imagemDuoBencao === "dbAfroditeZeus"){
+        return (<img src={AfroditeZeus}/>);
     }
 
     return null;

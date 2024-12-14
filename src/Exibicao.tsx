@@ -22,6 +22,11 @@ export default function Exibicao({children:duoBencaos}:ExibicaoProps)
                     <option value="Afrodite">Afrodite</option>
                     <option value="Ares">Ares</option>
                     <option value="Artemis">Artemis</option>
+                    <option value="Atena">Atena</option>
+                    <option value="Demeter">Demeter</option>
+                    <option value="Dionisio">Dionisio</option>
+                    <option value="Poseidon">Poseidon</option>
+                    <option value="Zeus">Zeus</option>
                     
 
                 </select>
@@ -31,6 +36,11 @@ export default function Exibicao({children:duoBencaos}:ExibicaoProps)
                     <option value="Afrodite">Afrodite</option>
                     <option value="Ares">Ares</option>
                     <option value="Artemis">Artemis</option>
+                    <option value="Atena">Atena</option>
+                    <option value="Demeter">Demeter</option>
+                    <option value="Dionisio">Dionisio</option>
+                    <option value="Poseidon">Poseidon</option>
+                    <option value="Zeus">Zeus</option>
                     
 
                 </select>
