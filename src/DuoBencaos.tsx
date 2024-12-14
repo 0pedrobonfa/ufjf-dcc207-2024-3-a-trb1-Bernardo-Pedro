@@ -1,5 +1,5 @@
 import "./DuoBencaos.css";
-import insereImagem from "./imagens";
+import insereImagem from "./imagens.tsx";
 
 interface DuoBencaosProps {
     imagemDuoBencao: string;

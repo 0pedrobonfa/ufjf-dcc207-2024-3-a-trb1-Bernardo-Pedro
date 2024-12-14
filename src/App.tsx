@@ -1,8 +1,11 @@
 import "./App.css";
 import DuoBencaos from "./DuoBencaos";
+import Exibicao from "./Exibicao";
 function App() {
   return (
     <div>
+      <Exibicao
+      >
       <DuoBencaos
         imagemD1="Demeter"
         nomeD1="Demeter"
@@ -17,6 +20,9 @@ function App() {
         Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, 
         e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
       ></DuoBencaos>
+      
+      </Exibicao>
+
     </div>
   );
 }
