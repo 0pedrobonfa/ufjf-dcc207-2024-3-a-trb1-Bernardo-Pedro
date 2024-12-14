@@ -21,16 +21,16 @@ export default function Exibicao({children:duoBencaos}:ExibicaoProps)
 
                     <option value="Afrodite">Afrodite</option>
                     <option value="Ares">Ares</option>
+                    <option value="Artemis">Artemis</option>
                     
 
                 </select>
-
-                <button id="btnSearch" >Isto é o botão pesquisa</button>
                 
                 <select name="D1" id="btnD2">Selecione os deuses
 
                     <option value="Afrodite">Afrodite</option>
                     <option value="Ares">Ares</option>
+                    <option value="Artemis">Artemis</option>
                     
 
                 </select>
