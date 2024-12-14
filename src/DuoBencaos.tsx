@@ -1,5 +1,5 @@
 import "./DuoBencaos.css";
-import insereImagem from "./imagens.tsx";
+import insereImagem, { insereImagemDuoBencao } from "./imagens";
 
 interface DuoBencaosProps {
     imagemDuoBencao: string;
@@ -27,7 +27,7 @@ export default function DuoBencaos ({imagemDuoBencao, imagemD1, imagemD2, nomeDu
 
             <div className="info">
                 <div className="nomeDuoBencao">{nomeDuoBencao}</div>
-                <div className="imagemDuoBencao">{imagemDuoBencao}</div>
+                <div className="imagemDuoBencao">{insereImagemDuoBencao(imagemDuoBencao)}</div>
                 <div className="descricao">{descricao}</div>
             </div>
 

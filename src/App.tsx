@@ -1,26 +1,41 @@
 import "./App.css";
 import DuoBencaos from "./DuoBencaos";
 import Exibicao from "./Exibicao";
+import { useEffect } from "react";
+
 function App() {
+  //Afrodite e Ares
+  
+  useEffect(() => {
+    const botaoBusca = document.querySelector("#btnSearch");
+  
+    if (botaoBusca) {
+      botaoBusca.addEventListener("click", () => {
+        console.log("Let's gooo");
+      });
+    }
+  
+  });
+  
+  const bencao1= [
+    <DuoBencaos
+      key={0}
+      imagemD1="Afrodite"
+      nomeD1="Afrodite"
+      imagemD2="Ares"
+      nomeD2="Ares"
+      imagemDuoBencao="dbAfroditeAres"
+      nomeDuoBencao="Maldição da Saudade"
+      descricao="Seu efeito de Maldição continuamente inflige fraqueza aos inimigos. Dano de Acerto Consecutivo: 50%">
+    </DuoBencaos>
+  ];
+  
   return (
     <div>
+
       <Exibicao
-      >
-      <DuoBencaos
-        imagemD1="Demeter"
-        nomeD1="Demeter"
-        imagemD2="Dionisio"
-        nomeD2="Dionisio"
-        imagemDuoBencao="IMAGEM"
-        nomeDuoBencao="NOMEBENCAO"
-        descricao="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
-        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos 
-        e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, 
-        como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. 
-        Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, 
-        e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
-      ></DuoBencaos>
-      
+      >{bencao1}
+
       </Exibicao>
 
     </div>
@@ -28,3 +43,22 @@ function App() {
 }
 
 export default App;
+
+
+//     const botaoDeus1 = document.querySelector<HTMLSelectElement>("#btnD1");
+//     const botaoDeus2 = document.querySelector<HTMLSelectElement>("#btnD2");
+
+//     if(botaoDeus1 && botaoDeus2)
+//     {
+//         const valorSelecionadoD1 = botaoDeus1.value;
+//         const valorSelecionadoD2 = botaoDeus2.value;
+
+//         if(valorSelecionadoD1 === "Afrodite" && valorSelecionadoD2 == "Ares")
+//         {
+//           return(
+
+//           )
+//         }
+//       }
+    
+// }

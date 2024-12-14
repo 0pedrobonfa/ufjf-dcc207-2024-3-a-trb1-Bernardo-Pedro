@@ -7,6 +7,7 @@ import Dionisio from "./assets/Deuses/Dionisio.png";
 import Poseidon from "./assets/Deuses/Poseidon.png";
 import Zeus from "./assets/Deuses/Zeus.png";
 
+import AfroditeAres from "./assets/DuoBencao/dbAfroditeAres.png";
 
 export default function insereImagem(imagemDeus:String){
 
@@ -34,6 +35,17 @@ export default function insereImagem(imagemDeus:String){
     else if(imagemDeus === "Zeus"){
         return (<img src={Zeus}/>);
     }
+    return null;
+
+}
+
+
+export function insereImagemDuoBencao(imagemDuoBencao:String){
+
+    if(imagemDuoBencao === "dbAfroditeAres"){
+        return (<img src={AfroditeAres}/>);
+    }
+
     return null;
 
 }

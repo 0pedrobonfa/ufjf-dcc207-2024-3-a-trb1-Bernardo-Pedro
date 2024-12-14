@@ -1,6 +1,6 @@
 import "./Exibicao.css";
 import { ReactNode } from "react";
-import { botaoPesquisa } from "./duoPesquisa.tsx";
+//import { botaoPesquisa } from "./App.tsx";
 
 interface ExibicaoProps{
     children?: ReactNode;
@@ -19,19 +19,19 @@ export default function Exibicao({children:duoBencaos}:ExibicaoProps)
 
                 <select name="D1" id="btnD1">Selecione os deuses
 
-                    <option value="1">Ares</option>
-                    <option value="2">Demeter</option>
-                    <option value="3">Dionisio</option>
+                    <option value="Afrodite">Afrodite</option>
+                    <option value="Ares">Ares</option>
+                    
 
                 </select>
 
-                <button id="btnSearch" onClick={botaoPesquisa}>Isto é o botão pesquisa</button>
+                <button id="btnSearch" >Isto é o botão pesquisa</button>
                 
                 <select name="D1" id="btnD2">Selecione os deuses
 
-                    <option value="1">Ares</option>
-                    <option value="2">Demeter</option>
-                    <option value="3">Dionisio</option>
+                    <option value="Afrodite">Afrodite</option>
+                    <option value="Ares">Ares</option>
+                    
 
                 </select>
 
