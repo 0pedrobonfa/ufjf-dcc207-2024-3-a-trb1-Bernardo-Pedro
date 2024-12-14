@@ -27,6 +27,7 @@ function App() {
           />,
         ]);
       }
+      //AFRODITE
       if (
         (d1 === "Afrodite" && d2 === "Ares") ||
         (d1 === "Ares" && d2 === "Afrodite")
@@ -141,7 +142,7 @@ function App() {
         ]);
       }
 
-      /////////////////////////////////////////////////
+      //ARES
       else if (
         (d1 === "Ares" && d2 === "Artemis") ||
         (d1 === "Artemis" && d2 === "Ares")
@@ -239,7 +240,8 @@ function App() {
           />,
         ]);
       }
-      /////////////////////////////////////////////////
+
+      //ARTEMIS
       else if (
         (d1 === "Artemis" && d2 === "Atena") ||
         (d1 === "Atena" && d2 === "Artemis")
@@ -321,7 +323,7 @@ function App() {
           />,
         ]);
       }
-      /////////////////////////////////////////////////
+      //ATENA
       else if (
         (d1 === "Atena" && d2 === "Demeter") ||
         (d1 === "Demeter" && d2 === "Atena")
@@ -388,7 +390,7 @@ function App() {
         ]);
       }
 
-      /////////////////////////////////////////////////
+      //DEMETER
       else if (
         (d1 === "Demeter" && d2 === "Dionisio") ||
         (d1 === "Dionisio" && d2 === "Demeter")
@@ -438,7 +440,7 @@ function App() {
           />,
         ]);
       }
-      /////////////////////////////////////////////////
+      //DIONISIO
       else if (
         (d1 === "Dionisio" && d2 === "Poseidon") ||
         (d1 === "Poseidon" && d2 === "Dionisio")
@@ -473,7 +475,10 @@ function App() {
         ]);
 
         /////////////////////////////////////////////////
-      } else if (
+      } 
+      
+      //POSEIDON & ZEUS
+      else if (
         (d1 === "Poseidon" && d2 === "Zeus") ||
         (d1 === "Zeus" && d2 === "Poseidon")
       ) {

@@ -2,6 +2,7 @@ import "./DuoBencaos.css";
 import insereImagem, { insereImagemDuoBencao } from "./imagens";
 
 interface DuoBencaosProps {
+    key:number;
     imagemDuoBencao: string;
     imagemD1: string;
     imagemD2: string;
