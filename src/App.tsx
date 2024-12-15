@@ -137,7 +137,7 @@ function App() {
             imagemD2="Zeus"
             nomeD2="Zeus"
             imagemDuoBencao="dbAfroditeZeus"
-            nomeDuoBencao="Ar fumegante"
+            nomeDuoBencao="Ar Fumegante"
             descricao="Seu Medidor de Deus carrega automaticamente, mas tem um limite de 25%. Ganho do medidor automático: 1% (a cada 0,2s.)"
           />,
         ]);
