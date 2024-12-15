@@ -1,10 +1,10 @@
 .app {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 2rem;
+    padding-top: 3em;
     place-items: center;
     /* box-shadow: 0 0 0 0.2vh lightblue; */
-    
+    backdrop-filter: blur(4px) brightness(30%);
 
     #btnSearch {
         width: 100%;
