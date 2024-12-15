@@ -6,8 +6,6 @@ interface ExibicaoProps{
     children?: ReactNode;
 }
 
-
-
 export default function Exibicao({children:duoBencaos}:ExibicaoProps)
 {
 

@@ -1,8 +1,9 @@
 .duoBencaos {
-    color: aquamarine;
+    color: white;
     padding: 0.5em;
-    box-shadow: 0 0 0 0.2vh lightblue;
+    /*box-shadow: 0 0 0 0.2vh lightblue;*/
     place-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     .deuses {
         display: grid;
@@ -10,6 +11,7 @@
         grid-template-areas:
         "nomeD1 nomeD2"
         "imagemD1 imagemD2";
+        font-size: large;
 
         .nomeD1{
             grid-area:  nomeD1;
@@ -20,6 +22,7 @@
         }
         .imagemD1 img{
             max-width: 100%;
+            max-height: 100%;
             width: auto;
             height: auto;
         }
@@ -33,6 +36,7 @@
         }
         .imagemD2 img{
             max-width: 100%;
+            max-height: 100%;
             width: auto;
             height: auto;
         }
@@ -47,15 +51,25 @@
         "nomeDuoBencao ."
         "imagemDuoBencao descricao";
         .nomeDuoBencao{
+            font-weight: bold;
+            font-size: larger;
             grid-area: nomeDuoBencao;
             margin-right: 1em;
+            margin-bottom: 1em;
         }
         .imagemDuoBencao{
             grid-area: imagemDuoBencao;
             margin-right: 1em;
         }
+        .imagemDuoBencao img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
         .descricao{
             grid-area: descricao;
+            font-size: large;
         }
     }
 

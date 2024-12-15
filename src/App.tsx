@@ -2,6 +2,7 @@ import "./App.css";
 import DuoBencaos from "./DuoBencaos";
 import Exibicao from "./Exibicao";
 import React, { useState } from "react";
+import "./App.css"
 
 function App() {
   const [bencao, exibeBencao] = useState<React.ReactNode[]>([]);
@@ -41,7 +42,7 @@ function App() {
             nomeD2="Ares"
             imagemDuoBencao="dbAfroditeAres"
             nomeDuoBencao="Maldição da Saudade"
-            descricao="eus acertos críticos causam mais dano a inimigos fracos. Dano Crítico Bônus: +150%%"
+            descricao="Seus acertos críticos causam mais dano a inimigos com fraqueza. Dano Crítico Bônus: +150%"
           />,
         ]);
       } else if (
@@ -57,7 +58,7 @@ function App() {
             nomeD2="Artemis"
             imagemDuoBencao="dbAfroditeArtemis"
             nomeDuoBencao="Coração Dilacerado"
-            descricao="Seus acertos CRÍTICOS causam mais danos aos inimigos com FRAQUEZA"
+            descricao="Seus acertos críticos causam mais danos aos inimigos com fraqueza"
           />,
         ]);
       } else if (
@@ -89,7 +90,7 @@ function App() {
             nomeD2="Demeter"
             imagemDuoBencao="dbAfroditeDemeter"
             nomeDuoBencao="Abraço Frio"
-            descricao="Seu cristal conjurado dispara seu raio diretamente em você por +4s. Dano de lançamento bônus : +30%"
+            descricao="Seu cristal conjurado dispara seu raio diretamente em você por +4s. Dano de lançamento bônus: +30%"
           />,
         ]);
       } else if (
@@ -105,7 +106,7 @@ function App() {
             nomeD2="Dionisio"
             imagemDuoBencao="dbAfroditeDionisio"
             nomeDuoBencao="Baixa Tolerância"
-            descricao="Seus efeitos de Ressaca podem acumular ainda mais vezes contra inimigos Fracos. Pilhas máximas vs Fracas: +3"
+            descricao="Seus efeitos de Ressaca podem acumular ainda mais vezes contra inimigos com fraquza. Pilhas máximas vs Fracas: +3"
           />,
         ]);
       } else if (
@@ -137,7 +138,7 @@ function App() {
             nomeD2="Zeus"
             imagemDuoBencao="dbAfroditeZeus"
             nomeDuoBencao="Ar fumegante"
-            descricao="SSeu Medidor de Deus carrega automaticamente, mas tem um limite de 25%. Ganho do medidor automático: 1% (a cada 0,2 seg.)"
+            descricao="Seu Medidor de Deus carrega automaticamente, mas tem um limite de 25%. Ganho do medidor automático: 1% (a cada 0,2s.)"
           />,
         ]);
       }
@@ -156,7 +157,7 @@ function App() {
             nomeD2="Artemis"
             imagemDuoBencao="dbAresArtemis"
             nomeDuoBencao="Lâminas de caça"
-            descricao="Seu Conjuração é uma Fenda de Lâmina mais rápida que busca o inimigo mais próximo. Duração da busca: 3,3 seg."
+            descricao="Sua Conjuração é uma Fenda de Lâmina mais rápida que busca o inimigo mais próximo. Duração da busca: 3,3s."
           />,
         ]);
       } else if (
@@ -188,7 +189,7 @@ function App() {
             nomeD2="Demeter"
             imagemDuoBencao="dbAresDemeter"
             nomeDuoBencao="Vórtice Congelante"
-            descricao="Seu feitiço causa Frio , mas é menor e se move mais lentamente. Tamanho da fenda da lâmina : -15%"
+            descricao="Seu feitiço causa Frio, mas é menor e se move mais lentamente. Tamanho da fenda da lâmina: -15%"
           />,
         ]);
       } else if (
@@ -204,7 +205,7 @@ function App() {
             nomeD2="Dionisio"
             imagemDuoBencao="dbAresDionisio"
             nomeDuoBencao="Maldição da Náusea"
-            descricao="Os efeitos da Ressaca causam dano mais rápido. Taxa de dano de ressaca: 0,5 ➜ 0,35 seg."
+            descricao="Os efeitos da Ressaca causam dano mais rápido. Taxa de dano de ressaca: 0,5 ➜ 0,35s."
           />,
         ]);
       } else if (
@@ -220,7 +221,7 @@ function App() {
             nomeD2="Poseidon"
             imagemDuoBencao="dbAresPoseidon"
             nomeDuoBencao="Maldição do Afogamento"
-            descricao="Seu Conjuração é um pulso que causa dano aos inimigos ao seu redor. Pulsos por conjuração: 3"
+            descricao="Sua Conjuração é um pulso que causa dano aos inimigos ao seu redor. Pulsos por conjuração: 3"
           />,
         ]);
       } else if (
@@ -236,7 +237,7 @@ function App() {
             nomeD2="Zeus"
             imagemDuoBencao="dbAresZeus"
             nomeDuoBencao="Humor Vingativo"
-            descricao="Às vezes, seus efeitos de Vingança ocorrem sem que você sofra dano. Taxa de vingança automática: 3 s."
+            descricao="Às vezes, seus efeitos de Vingança ocorrem sem que você sofra dano. Taxa de vingança automática: 3s."
           />,
         ]);
       }
@@ -255,7 +256,7 @@ function App() {
             nomeD2="Atena"
             imagemDuoBencao="dbArtemisAtena"
             nomeDuoBencao="Reversão Mortal"
-            descricao="Após Defletir , você ganha brevemente +20% de chance de causar dano Crítico. Duração crítica: 2 seg."
+            descricao="Após Defletir, você ganha brevemente +20% de chance de causar dano Crítico. Duração crítica: 2s."
           />,
         ]);
       } else if (
@@ -337,7 +338,7 @@ function App() {
             nomeD2="Demeter"
             imagemDuoBencao="dbAtenaDemeter"
             nomeDuoBencao="Raízes Teimosas"
-            descricao="Se você não tiver Morte/Desafio Teimoso , sua Saúderecuperação será lenta.Regeneração de vida durante a batalha: 1 (a cada 0,8 s)Saúde"
+            descricao="Se você não tiver Morte/Desafio Teimoso, sua recuperação de saúde será lenta. Regeneração de vida durante a batalha: 1 (a cada 0,8s)"
           />,
         ]);
       } else if (
@@ -420,7 +421,7 @@ function App() {
             nomeD2="Poseidon"
             imagemDuoBencao="dbDemeterPoseidon"
             nomeDuoBencao="Tiro de Nevasca"
-            descricao="Seu TIRO se move lentamente, atravessando inimigos e disparando fragmentos ao seu redor. Dano dos Fragmentos: 40"
+            descricao="Seu Tiro se move lentamente, atravessando inimigos e disparando fragmentos ao seu redor. Dano dos Fragmentos: 40"
           />,
         ]);
       } else if (
@@ -436,7 +437,7 @@ function App() {
             nomeD2="Zeus"
             imagemDuoBencao="dbDemeterZeus"
             nomeDuoBencao="Fusão a Frio"
-            descricao="Seus efeitos de Eletricidade não expiram quando os inimigos atacam. Duração de Eletricidade: 10 seg"
+            descricao="Seus efeitos de Eletricidade não expiram quando os inimigos atacam. Duração de Eletricidade: 10s"
           />,
         ]);
       }
@@ -454,7 +455,7 @@ function App() {
             nomeD2="Poseidon"
             imagemDuoBencao="dbDionisioPoseidon"
             nomeDuoBencao="Acesso Exclusivo"
-            descricao="Qualquer Benção encontrada têm seus efeitos melhorados. Minimo Raridade Benção: Épica"
+            descricao="Qualquer Benção encontrada têm seus efeitos melhorados. Raridade Mínima de Benção: Épica"
           />,
         ]);
       } else if (
@@ -499,7 +500,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="app">
       <button id="btnSearch" onClick={verificaBencao}>
         DUO!
       </button>
